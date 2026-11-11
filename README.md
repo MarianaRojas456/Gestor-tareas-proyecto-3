@@ -24,3 +24,15 @@ Repositorio para el parcial 3 de ingenieria de software II- Gestor de tareas.
    
 ### Funcionalidades excluidas y razón
 * *Sincronización en la nube en tiempo real / Bases de datos remotas:* Las excluimos porque el objetivo principal del proyecto es demostrar la correcta aplicación de patrones de diseño orientados a objetos y arquitectura limpia en una aplicación local en Java, entonces la quitamos para evitar añadir complejidad de infraestructura de red que distrajera del dominio del problema.
+  
+
+## 2. Instrucciones de Compilación y Ejecución
+
+### Prerrequisitos
+* Tener instalado *Java Development Kit (JDK 17 o superior)* en tu equipo.
+* Un entorno de desarrollo recomendado como *IntelliJ IDEA* o *NetBeans*, o bien utilizar la terminal de comandos.
+
+### Compilación y Ejecución por Consola
+1. Clona el repositorio en tu máquina local:
+   ```bash
+   git clone [https://github.com/MarianaRojas456/Gestor-tareas-proyecto-3.git](https://github.com/MarianaRojas456/Gestor-tareas-proyecto-3.git)
