@@ -33,6 +33,6 @@ Repositorio para el parcial 3 de ingenieria de software II- Gestor de tareas.
 * Un entorno de desarrollo recomendado como *IntelliJ IDEA* o *NetBeans*, o bien utilizar la terminal de comandos.
 
 ### Compilación y Ejecución por Consola
-1. Clona el repositorio en tu máquina local:
+1. Clonar el repositorio en tu máquina local:
    ```bash
    git clone [https://github.com/MarianaRojas456/Gestor-tareas-proyecto-3.git](https://github.com/MarianaRojas456/Gestor-tareas-proyecto-3.git)
