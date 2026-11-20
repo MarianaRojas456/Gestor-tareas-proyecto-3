@@ -32,7 +32,20 @@ Repositorio para el parcial 3 de ingenieria de software II- Gestor de tareas.
 * Tener instalado *Java Development Kit (JDK 17 o superior)* en tu equipo.
 * Un entorno de desarrollo recomendado como *IntelliJ IDEA* o *NetBeans*, o bien utilizar la terminal de comandos.
 
-### Compilación y Ejecución por Consola
-1. Clonar el repositorio en tu máquina local:
-   ```bash
-   git clone [https://github.com/MarianaRojas456/Gestor-tareas-proyecto-3.git](https://github.com/MarianaRojas456/Gestor-tareas-proyecto-3.git)
+# Gestor de Tareas en Java
+
+Aplicación de gestión de tareas desarrollada en Java para el proyecto de Ingeniería de Software II, con interfaz por consola e interfaz gráfica sobre un núcleo compartido y aplicación de patrones de diseño.
+
+## Estructura de paquetes
+- `src/principal/java/com/gestortareas/patrones`: Implementación de patrones de diseño (`Prototype`, etc.)
+- `src/principal/java/com/gestortareas/iu/consola`: Interfaz por consola (`MainConsola`)
+- `src/principal/java/com/gestortareas/iu/grafica`: Interfaz gráfica
+- `src/prueba/java/com/gestortareas/patrones`: Pruebas unitarias (`TareaPlantillaTest`)
+
+## Compilación y ejecución
+
+### Consola
+```bash
+mkdir -p out
+javac -d out $(find src/principal/java -name "*.java")
+java -cp out com.gestortareas.iu.consola.MainConsola
