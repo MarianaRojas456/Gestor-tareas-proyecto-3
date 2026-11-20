@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Gestor-tareas-proyecto-3.iml" filepath="$PROJECT_DIR$/.idea/Gestor-tareas-proyecto-3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/main/main.iml" filepath="$PROJECT_DIR$/src/main/main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/principal/principal.iml" filepath="$PROJECT_DIR$/src/principal/principal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/prueba/prueba.iml" filepath="$PROJECT_DIR$/src/prueba/prueba.iml" />
+    </modules>
+  </component>
+</project>
