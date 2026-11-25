@@ -27,5 +27,11 @@ En el Gestor de Tareas se utiliza para crear nuevas tareas a partir de una plant
 - Si el objeto tiene estructuras complejas, la clonación puede ser más difícil.
 
 **Conclusión del patrón:**
-
 Prototype facilita la creación de tareas en el sistema, ya que permite utilizar plantillas existentes y generar nuevas tareas de manera rápida y organizada.
+
+### Conclusiones
+
+El desarrollo de la interfaz gráfica permitió crear una forma sencilla para que el usuario pueda gestionar sus tareas y visualizar información como el nombre, la prioridad, la fecha límite y el estado.
+También se implementó el patrón Prototype, que permite crear nuevas tareas a partir de una plantilla existente. Esto facilita el proceso y evita tener que ingresar toda la información desde cero.
+Durante el desarrollo se fortalecieron los conocimientos sobre programación en Java, patrones de diseño, organización de clases y creación de interfaces gráficas.
+Finalmente, este proyecto permitió comprender la importancia de utilizar patrones de diseño para desarrollar programas más organizados, reutilizables y fáciles de mantener.
