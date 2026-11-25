@@ -41,6 +41,9 @@ Aplicación de gestión de tareas desarrollada en Java para el proyecto de Ingen
 - `src/principal/java/com/gestortareas/iu/consola`: Interfaz por consola (`MainConsola`)
 - `src/principal/java/com/gestortareas/iu/grafica`: Interfaz gráfica
 - `src/prueba/java/com/gestortareas/patrones`: Pruebas unitarias (`TareaPlantillaTest`)
+- src/com/gestortareas/patrones: Implementación del patrón Prototype.
+- src/com/gestortareas/iu/grafica: Interfaz gráfica desarrollada con Java Swing.
+- test/com/gestortareas/patrones: Pruebas unitarias del patrón Prototype.
 
 ## Compilación y ejecución
 
