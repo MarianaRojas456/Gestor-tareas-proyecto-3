@@ -44,7 +44,23 @@ Aplicación de gestión de tareas desarrollada en Java para el proyecto de Ingen
 - src/com/gestortareas/patrones: Implementación del patrón Prototype.
 - src/com/gestortareas/iu/grafica: Interfaz gráfica desarrollada con Java Swing.
 - test/com/gestortareas/patrones: Pruebas unitarias del patrón Prototype.
+  
+Interfaz gráfica
+La aplicación cuenta con una interfaz gráfica desarrollada mediante Java Swing.
 
+- La ventana principal permite:
+- Crear tareas indicando nombre, prioridad, fecha límite y estado.
+- Visualizar las tareas registradas en una tabla.
+- Eliminar tareas seleccionadas.
+- Crear tareas a partir de plantillas utilizando el patrón Prototype.
+
+El botón de creación desde plantilla utiliza una plantilla base y genera una copia independiente que puede personalizarse.
+
+El módulo de creación de proyectos todavía se encuentra en desarrollo.
+
+Ejecución de la interfaz gráfica
+
+Para iniciar la interfaz se debe ejecutar la clase VentanaPrincipal, ubicada en el paquete com.gestortareas.iu.grafica.
 ## Compilación y ejecución
 
 ### Consola
