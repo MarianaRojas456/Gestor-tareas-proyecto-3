@@ -1,0 +1,31 @@
+### Patrón de diseño Prototype
+
+**¿Qué es?**
+
+El patrón Prototype permite crear nuevos objetos copiando otros objetos que ya existen, sin tener que construirlos desde cero.
+
+**¿Cómo se aplica en el proyecto?**
+
+En el Gestor de Tareas se utiliza para crear nuevas tareas a partir de una plantilla. El usuario puede seleccionar la opción «Crear desde plantilla» y el sistema realiza una copia de una tarea base.
+
+**Clases utilizadas:**
+
+- `PrototipoTarea`: interfaz que establece el método `clonar()`.
+- `TareaPlantilla`: clase que contiene la información de la tarea y permite realizar una copia.
+- `VentanaPrincipal`: permite al usuario utilizar la plantilla desde la interfaz gráfica.
+
+**Ventajas:**
+
+- Permite crear tareas rápidamente.
+- Evita construir cada tarea desde cero.
+- Facilita reutilizar información.
+- Permite modificar la copia sin cambiar la plantilla original.
+
+**Desventajas:**
+
+- Se debe controlar correctamente la copia de los atributos.
+- Si el objeto tiene estructuras complejas, la clonación puede ser más difícil.
+
+**Conclusión del patrón:**
+
+Prototype facilita la creación de tareas en el sistema, ya que permite utilizar plantillas existentes y generar nuevas tareas de manera rápida y organizada.
