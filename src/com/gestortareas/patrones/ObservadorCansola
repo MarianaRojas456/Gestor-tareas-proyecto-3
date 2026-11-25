@@ -1,0 +1,13 @@
+package com.gestortareas.patrones;
+
+public class ObservadorConsola implements Observador {
+
+    @Override
+    public void actualizar(String nombreTarea, String nuevoEstado) {
+
+        System.out.println(
+                "NOTIFICACIÓN: La tarea '" + nombreTarea
+                        + "' cambió al estado: " + nuevoEstado
+        );
+    }
+}
