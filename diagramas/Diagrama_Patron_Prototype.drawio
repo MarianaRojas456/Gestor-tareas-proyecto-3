@@ -1,0 +1,31 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="O7OJszw_pQs7ihFzprsB">
+    <mxGraphModel dx="1414" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-5ueob7YMF_O-dlbNjDd-5" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="&lt;div&gt;&lt;code&gt;«Prototype»&lt;/code&gt;&lt;/div&gt;&lt;div&gt;PrototipoTarea&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ clonar(): PrototipoTarea&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="130" x="370" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="-5ueob7YMF_O-dlbNjDd-7" edge="1" parent="1" source="-5ueob7YMF_O-dlbNjDd-6" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" target="-5ueob7YMF_O-dlbNjDd-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-5ueob7YMF_O-dlbNjDd-6" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="&lt;div&gt;«ConcretePrototype»&lt;/div&gt;&lt;div&gt;TareaPlantilla&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- titulo: String&lt;/div&gt;&lt;div&gt;- descripcion: String&lt;/div&gt;&lt;div&gt;- prioridad: String&lt;/div&gt;&lt;div&gt;- etiquetas: List&amp;lt;String&amp;gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ clonar(): TareaPlantilla&lt;/div&gt;&lt;div&gt;+ getTitulo(): String&lt;/div&gt;&lt;div&gt;+ setTitulo(titulo: String): void&lt;/div&gt;&lt;div&gt;+ getDescripcion(): String&lt;/div&gt;&lt;div&gt;+ setDescripcion(descripcion: String): void&lt;/div&gt;&lt;div&gt;+ getPrioridad(): String&lt;/div&gt;&lt;div&gt;+ setPrioridad(prioridad: String): void&lt;/div&gt;&lt;div&gt;+ getEtiquetas(): List&amp;lt;String&amp;gt;&lt;/div&gt;&lt;div&gt;+ agregarEtiqueta(etiqueta: String): void&lt;/div&gt;" vertex="1">
+          <mxGeometry height="250" width="250" x="310" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="-5ueob7YMF_O-dlbNjDd-9" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="&lt;div&gt;&lt;font face=&quot;monospace&quot;&gt;«Client»&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;monospace&quot;&gt;MainConsola&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;monospace&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;monospace&quot;&gt;+ main(args: String[]): void&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="110" x="690" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="-5ueob7YMF_O-dlbNjDd-11" edge="1" parent="1" source="-5ueob7YMF_O-dlbNjDd-9" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.464;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" target="-5ueob7YMF_O-dlbNjDd-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-5ueob7YMF_O-dlbNjDd-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="crea y clona&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="60" x="610" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="-5ueob7YMF_O-dlbNjDd-13" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;strong&gt;Diagrama de clases – Patrón Prototype&lt;/strong&gt;" vertex="1">
+          <mxGeometry height="130" width="540" x="300" y="190" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
