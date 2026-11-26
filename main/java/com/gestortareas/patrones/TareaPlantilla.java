@@ -3,7 +3,7 @@ package com.gestortareas.patrones;
 import java.util.ArrayList;
 import java.util.List;
 
-public class TareaPlantilla {
+public class TareaPlantilla implements PrototipoTarea {
     private String titulo;
     private String descripcion;
     private String prioridad;
@@ -15,7 +15,7 @@ public class TareaPlantilla {
         this.prioridad = prioridad;
         this.etiquetas = etiquetas != null ? new ArrayList<>(etiquetas) : new ArrayList<>();
     }
-
+    @Override
     public TareaPlantilla clonar() {
         return new TareaPlantilla(
                 this.titulo,
